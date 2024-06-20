@@ -7,7 +7,7 @@ export CcyInfoQuery,
 
 using Serde
 using Dates, NanoDates, TimeZones
-using CryptoAPIs.CoinMarketCap
+using CoinMarketCap
 using CryptoAPIs: Maybe, APIsRequest
  
 Base.@kwdef struct CcyInfoQuery <: CoinMarketCapPublicQuery

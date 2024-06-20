@@ -1,6 +1,6 @@
 module Spot
 
-using CryptoAPIs.CoinMarketCap
+using CoinMarketCap
 
 """
     public_client = CoinMarketCapClient(; base_url = "https://pro-api.coinmarketcap.com")
