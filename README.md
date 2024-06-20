@@ -16,7 +16,6 @@ To install CoinMarketCap, simply use the Julia package manager:
 ENV["X_CMC_PRO_API_KEY"] = "your_token_here"
 using Pkg
 Pkg.add(url="https://github.com/pseagal/CoinMarketCap.jl.git")
-Pkg.activate(".")
 using CoinMarketCap
 ```
 
