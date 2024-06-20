@@ -1,0 +1,8 @@
+name = "CoinMarketCap"
+uuid = "4a1425cc-8e96-436b-8072-05b8f05ead3e"
+version = "0.1.0"
+
+[deps]
+
+[compat]
+julia = "1.8"
