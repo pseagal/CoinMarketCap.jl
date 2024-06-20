@@ -77,9 +77,9 @@ end
 
 ```julia
 using Serde
-using CryptoAPIs.CoinMarketCap
+using CoinMarketCap
 
-result = CryptoAPIs.CoinMarketCap.Spot.id_map(
+result = CoinMarketCap.Spot.id_map(
             listing_status="active", 
             start=1, 
             limit=10, 

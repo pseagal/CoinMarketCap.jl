@@ -68,7 +68,7 @@ end
 
 ```julia
 using Serde
-using CryptoAPIs.CoinMarketCap
+using CoinMarketCap
 
 result = CoinMarketCap.Spot.price_converter(;
     symbol = "BTC",
