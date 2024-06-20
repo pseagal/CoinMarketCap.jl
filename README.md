@@ -12,8 +12,7 @@
 
 To install CoinMarketCap, simply use the Julia package manager:
 
-```julia
-] add CoinMarketCap
+```julia> Pkg.add CoinMarketCap
 ```
 
 ## Usage
