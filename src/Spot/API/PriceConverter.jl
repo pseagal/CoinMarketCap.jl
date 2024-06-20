@@ -72,7 +72,7 @@ using CryptoAPIs.CoinMarketCap
 
 result = CoinMarketCap.Spot.price_converter(;
     symbol = "BTC",
-    convert = "USDT, ETH",
+    convert = "USDT",
     amount = 10
 ) 
 
@@ -83,8 +83,68 @@ to_pretty_json(result.result)
 
 ```json
 {
-  "mins":5,
-  "price":0.64545824
+  "data":[
+    {
+      "amount":2,
+      "name":"Bitcoin",
+      "quote":{
+        "USDT":{
+          "price":130486.7646192029,
+          "last_updated":"2024-06-20T01:38:00.000Z"
+        }
+      },
+      "id":1,
+      "symbol":"BTC",
+      "last_updated":"2024-06-20T01:39:00.000Z"
+    },
+    {
+      "amount":2,
+      "name":"Boost Trump Campaign",
+      "quote":{
+        "USDT":{
+          "price":8.503266184304235e-7,
+          "last_updated":"2024-06-20T01:38:00.000Z"
+        }
+      },
+      "id":31469,
+      "symbol":"BTC",
+      "last_updated":"2024-06-20T01:38:00.000Z"
+    },
+    {
+      "amount":2,
+      "name":"batcat",
+      "quote":{
+        "USDT":{
+          "price":0.00030642219143521717,
+          "last_updated":"2024-06-20T01:38:00.000Z"
+        }
+      },
+      "id":31652,
+      "symbol":"BTC",
+      "last_updated":"2024-06-20T01:38:00.000Z"
+    },
+    {
+      "amount":2,
+      "name":"Satoshi Pumpomoto",
+      "quote":{
+        "USDT":{
+          "price":0.0006376037207182016,
+          "last_updated":"2024-06-20T01:38:00.000Z"
+        }
+      },
+      "id":30938,
+      "symbol":"BTC",
+      "last_updated":"2024-06-20T01:39:00.000Z"
+    }
+  ],
+  "status":{
+    "timestamp":"2024-06-20T01:40:46.897Z",
+    "error_code":0,
+    "error_message":null,
+    "elapsed":38,
+    "credit_count":1,
+    "notice":null
+  }
 }
 ```
 """

@@ -7,8 +7,7 @@ export CoinMarketCapCommonQuery,
     CoinMarketCapAPIError,
     CoinMarketCapClient,
     CoinMarketCapData
-   # PriceConverter,
-    #public_client
+
 
 using Serde
 using Dates, NanoDates, Base64, Nettle
