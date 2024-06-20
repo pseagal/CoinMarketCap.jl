@@ -59,9 +59,9 @@ end
 
 ```julia
 using Serde
-using CryptoAPIs.CoinMarketCap
+using CoinMarketCap
 
-result = CryptoAPIs.CoinMarketCap.Spot.fiat_map(start=1, limit=10, sort="id", include_metals=true)
+result = CoinMarketCap.Spot.fiat_map(start=1, limit=10, sort="id", include_metals=true)
 
 println(to_pretty_json(result.result))
 ```

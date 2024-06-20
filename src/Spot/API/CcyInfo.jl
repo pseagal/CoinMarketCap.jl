@@ -99,9 +99,9 @@ end
 
 ```julia
 using Serde
-using CryptoAPIs.CoinMarketCap
+using CoinMarketCap
 
-result = CryptoAPIs.CoinMarketCap.Spot.ccy_info(symbol="BTC", skip_invalid=true, aux="urls")
+result = CoinMarketCap.Spot.ccy_info(symbol="BTC", skip_invalid=true, aux="urls")
 
 println(to_pretty_json(result.result))
 ```

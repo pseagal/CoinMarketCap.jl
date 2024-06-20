@@ -69,9 +69,9 @@ end
 
 ```julia
 using Serde
-using CryptoAPIs.CoinMarketCap
+using CoinMarketCap
 
-result = CryptoAPIs.CoinMarketCap.Spot.exc_assets(id="270")
+result = CoinMarketCap.Spot.exc_assets(id="270")
 
 println(to_pretty_json(result.result))
 ```

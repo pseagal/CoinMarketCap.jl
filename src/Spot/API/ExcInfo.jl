@@ -74,9 +74,9 @@ end
 
 ```julia
 using Serde
-using CryptoAPIs.CoinMarketCap
+using CoinMarketCap
 
-result = CryptoAPIs.CoinMarketCap.Spot.exc_info(slug="binance", aux="urls")
+result = CoinMarketCap.Spot.exc_info(slug="binance", aux="urls")
 
 println(to_pretty_json(result.result))
 ```

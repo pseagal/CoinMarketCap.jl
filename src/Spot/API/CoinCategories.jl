@@ -67,9 +67,9 @@ end
 
 ```julia
 using Serde
-using CryptoAPIs.CoinMarketCap
+using CoinMarketCap
 
-result = CryptoAPIs.CoinMarketCap.Spot.coin_categories(start=1,limit=2,slug="bitcoin",symbol="BTC")
+result = CoinMarketCap.Spot.coin_categories(start=1,limit=2,slug="bitcoin",symbol="BTC")
 
 println(to_pretty_json(result.result))
 ```
