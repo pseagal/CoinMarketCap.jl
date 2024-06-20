@@ -12,8 +12,8 @@ export CoinMarketCapCommonQuery,
 using Serde
 using Dates, NanoDates, Base64, Nettle
 
-using ..CryptoAPIs
-using ..CryptoAPIs: Maybe,  AbstractAPIsError, AbstractAPIsData, AbstractAPIsQuery, AbstractAPIsClient
+using CryptoAPIs
+using CryptoAPIs: Maybe,  AbstractAPIsError, AbstractAPIsData, AbstractAPIsQuery, AbstractAPIsClient
 
 abstract type CoinMarketCapData <: AbstractAPIsData end
 abstract type CoinMarketCapCommonQuery <: AbstractAPIsQuery end
